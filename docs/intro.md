@@ -2,46 +2,28 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover the BlueROV.
+We wrote this guide to share our experiences using the BlueROV as a robot, specifically reading sensor and state information, including video, from the ROV, and sending commands to the ROV.   We focus on the core "off the shelf" BlueROV / BlueOS experience; obviously there are lots of ways to extend and customize your ROV but we wanted to simplify getting started with the core vehicle.
 
-## Getting Started
+This guide is not specifically tied to a particular software framework or project, and is more of a FAQ than a complete software stack.   Throughout we use examples from ours and others code.  If you are looking for a more complete robotic solution, please see our related [awesome_blueos]() repo.
 
-Get started by **creating a new site**.
+We are working with the BlueROV; many of these lessons also apply to the BlueBoat, but we do not have a BlueBoat for testing.  Please feel free to [contribute content](contributing/) related to the BlueBoat.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+We developed this guide working with BlueOS 1.4.x and Ardupilot 4.5.7.   The BlueOS ecosystem continues to evolve and we will update the guide as we discover new things.  Please [contribute](contributing/) if you discover new BlueOS capabilities.
 
-### What you'll need
+## Structure
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+This guide has four sections:
 
-## Generate a new site
+* [BlueOS Basics]()
+* A detailed discussion of working with [Mavlink]().   This describes interaction with the robot using [`pymavlink`](https://github.com/ArduPilot/pymavlink).
+* A section on using [ROS2]() to interact with the ROV, largely through [`mavros`](https://github.com/mavlink/mavros)
+* 
 
-Generate a new Docusaurus site using the **classic template**.
+## Related Projects
 
-The classic template will automatically be added to your project after you run the command:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+# License and Attribution
