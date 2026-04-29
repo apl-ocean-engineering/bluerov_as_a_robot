@@ -19,7 +19,7 @@ This guide has four sections:
 * [BlueOS Basics]()
 * A detailed discussion of working with [Mavlink]().   This describes interaction with the robot using [`pymavlink`](https://github.com/ArduPilot/pymavlink).
 * A section on using [ROS2]() to interact with the ROV, largely through [`mavros`](https://github.com/mavlink/mavros)
-* 
+*
 
 ## Related Projects
 
