@@ -10,9 +10,9 @@ To contribute:
 
 * Fork [this repo]() from Github
 * Make changes in a [feature branch]()
-* Be sure to use [`pre-commit`](#pre-commits)!
+* Be sure to use [`pre-commit`](#pre-commit)!
 * Submit a pull request.
 
 ## Pre-commit
 
-We use [pre-commit]() to regularize formatting.  Please install and use pre-commit!  Changes which do not pass pre-commit in CI will be sent back.
+We use [`pre-commit`](https://pre-commit.com) to regularize files stored in the Git repo.  Please install and use `pre-commit`!  Changes which do not pass `pre-commit` in CI will be sent back.
